@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2ff52a64bf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <title>MFU</title>
+</head>
+<body>
+    
+<div class="container">
+        <form action="" >
+            <div class="inputs">
+                <div class="value">
+                    <h3>Nom:</h3>
+                    <input type="text" name="" id="Nom">
+                    <p id="name"></p>
+                </div>
+                <div class="value">
+                    <div class="value">
+                        <h3>Prix:</h3>
+                        <input type="text" id="prix">
+                        <p id="price"></p> 
+                    </div>
+                <h3>Marque</h3>
+                <select name="" id="marque" size="1">
+                    <option value="Dior">Dior</option>
+                    <option value="1 Million">1 Million</option>
+                    <option value="Hugo Boss">Hugo Boss</option>
+                    <option value="CkFree"> CkFree</option>
+                </select>
+                <p id="marquepara"></p>
+            </div>
+            <div class="value">
+                <h3>Date:</h3>
+                <input type="date" name="" id="date">
+                <p id="paradate"></p>
+            </div>
+            <div>
+                <h3>Type:</h3>
+                <select name="" id="type">
+                    <option value=""></option>
+                    <option value="Hygiène et toilette">Hygiène et toilette</option>
+                    <option value="Soins esthétiques">Soins esthétiques</option>
+                    <option value="Produits solaires">Produits solaires</option>
+                    <option value="Beauté des mains et des pieds">Beauté des mains et des pieds</option>
+                    <option value="Roduits de maquillage">Rroduits de maquillage</option>
+                    <option value="Entretien capillaires">Entretien capillaires</option>
+                    <option value="Parfums">Parfums</option>
+                </select>
+                <p id="paratype"></p>
+            </div>
+            <div class="radio">
+                <h3>Promotion:</h3>
+                <input value="oui" type="radio" name="radio"id="oui">
+                <label for="radio">oui</label>
+                <input value="non" type="radio" name="radio"id="non">
+                <label for="radio">non</label>
+                <p id="promo"></p>
+            </div>
+            <div class="modern">
+                <button id="btn">Add</button>
+                <button id="edit3" >Edit</button>
+                
+            </div>
+        </div>
+        </form>
+        <div class="table">
+        
+            <table id="table">
+                <tr>
+                <th>Nom</th>
+                <th>Marque</th>
+                <th>Prix</th>
+                <th>Date</th>
+                <th>Type</th>
+                <th>Promotion</th>
+                <th>Actions </th>
+                </tr>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
